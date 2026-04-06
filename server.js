@@ -190,5 +190,5 @@ app.use((req, res) => {
 
 // Start Server
 app.listen(PORT, () => {
-  console.log(`Zorvyn Finance API is running on http://localhost:${PORT}`);
+  console.log(`Finance-dev API is running on http://localhost:${PORT}`);
 });

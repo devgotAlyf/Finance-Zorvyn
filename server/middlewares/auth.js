@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-const JWT_SECRET = 'zorvyn-super-secret-key-for-assessment';
+const JWT_SECRET = 'finance-dev-super-secret-key-for-assessment';
 
 const authenticateToken = (req, res, next) => {
   const authHeader = req.headers['authorization'];
