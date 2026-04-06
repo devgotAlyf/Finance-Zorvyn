@@ -45,14 +45,17 @@ export function renderSidebar() {
     <aside class="sidebar" id="sidebar">
       <div class="sidebar-header">
         <div class="sidebar-logo">
-          <div class="logo-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-              <path d="M2 17l10 5 10-5"/>
-              <path d="M2 12l10 5 10-5"/>
+          <div class="logo-icon" style="background-color: #082116;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#A7EB46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+              <path d="M5 21h14" stroke-width="2.5"/>
+              <rect x="6" y="14" width="3" height="5" rx="1" fill="#A7EB46" stroke="none"/>
+              <rect x="10.5" y="10" width="3" height="9" rx="1" fill="#A7EB46" stroke="none"/>
+              <rect x="15" y="7" width="3" height="12" rx="1" fill="#A7EB46" stroke="none"/>
+              <polyline points="5 10 9 5 12 8 18 2"/>
+              <polyline points="14 2 18 2 18 6"/>
             </svg>
           </div>
-          <span class="logo-text">Zorvyn</span>
+          <span class="logo-text">Finance-dev</span>
         </div>
       </div>
       <nav class="sidebar-nav">

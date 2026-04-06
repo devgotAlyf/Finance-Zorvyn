@@ -1,8 +1,8 @@
 const db = {
   users: [
-    { id: 'u1', name: 'Arjun Mehta', email: 'admin@zorvyn.com', password: 'admin', role: 'admin', status: 'active', joined: '15 Jan 2024' },
-    { id: 'u2', name: 'Priya Sharma', email: 'analyst@zorvyn.com', password: 'analyst', role: 'analyst', status: 'active', joined: '22 Mar 2024' },
-    { id: 'u3', name: 'Rohan Gupta', email: 'viewer@zorvyn.com', password: 'viewer', role: 'viewer', status: 'active', joined: '10 May 2024' },
+    { id: 'u1', name: 'Arjun Mehta', email: 'admin@dev.com', password: 'admin', role: 'admin', status: 'active', joined: '15 Jan 2024' },
+    { id: 'u2', name: 'Priya Sharma', email: 'analyst@dev.com', password: 'analyst', role: 'analyst', status: 'active', joined: '22 Mar 2024' },
+    { id: 'u3', name: 'Rohan Gupta', email: 'viewer@dev.com', password: 'viewer', role: 'viewer', status: 'active', joined: '10 May 2024' },
   ],
   transactions: [
     { id: 't1', date: '20 Mar 2024', description: 'Spotify Premium', category: 'Subscriptions', type: 'expense', amount: 119 },

@@ -61,7 +61,7 @@ export async function renderUsersPage() {
         
         <div class="form-group">
           <label for="user-email" class="form-label">Email Address</label>
-          <input type="email" id="user-email" class="form-input" placeholder="name@zorvyn.com" required>
+          <input type="email" id="user-email" class="form-input" placeholder="name@dev.com" required>
         </div>
         
         <div class="form-group">

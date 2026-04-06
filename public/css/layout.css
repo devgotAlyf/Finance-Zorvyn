@@ -137,6 +137,7 @@
 .sidebar-footer {
   border-top: 1px solid var(--border);
   padding: var(--space-4) var(--space-5);
+  padding-bottom: 160px; /* Force footer UI above bottom system overlays */
   flex-shrink: 0;
 }
 

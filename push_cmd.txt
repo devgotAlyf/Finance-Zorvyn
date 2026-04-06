@@ -1,0 +1,1 @@
+fatal: unable to access 'https://github.com/devgotAlyf/Fianance-Zorvyn.git/': Could not resolve host: github.com
